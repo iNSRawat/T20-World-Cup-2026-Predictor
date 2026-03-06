@@ -476,6 +476,32 @@ def render_final_prediction():
     })
     st.dataframe(factors, hide_index=True, use_container_width=True)
 
+    # ── Head-to-Head & Player Records ────────────────────────────────
+    st.markdown("### ⚔️ Historic Head-to-Head (T20Is)")
+    
+    h2h_col1, h2h_col2, h2h_col3 = st.columns(3)
+    with h2h_col1:
+        st.markdown('<div class="stat-card"><div class="stat-num" style="color:#ffffff">25</div><div class="stat-label">Total Matches</div></div>', unsafe_allow_html=True)
+    with h2h_col2:
+        st.markdown('<div class="stat-card"><div class="stat-num" style="color:#f97316">14</div><div class="stat-label">India Won</div></div>', unsafe_allow_html=True)
+    with h2h_col3:
+        st.markdown('<div class="stat-card"><div class="stat-num" style="color:#22c55e">10</div><div class="stat-label">New Zealand Won</div></div>', unsafe_allow_html=True)
+        
+    st.markdown("<p style='font-size:0.8rem; color:#94a3b8; text-align:center;'>*(1 match ended in a tie/no result)*</p>", unsafe_allow_html=True)
+    
+    st.markdown("<h4 style='color: #ffffff; margin-top: 1rem;'>🌟 Top Player Records vs New Zealand (T20Is)</h4>", unsafe_allow_html=True)
+    player_records = pd.DataFrame({
+        "Player": ["Suryakumar Yadav 🇮🇳", "Jasprit Bumrah 🇮🇳", "Hardik Pandya 🇮🇳", "Arshdeep Singh 🇮🇳"],
+        "Role": ["Top-Order Batter", "Pace Bowler", "All-Rounder", "Pace Bowler"],
+        "Historic Record vs NZ": [
+            "1 Century, 2 Fifties (Avg 55+)", 
+            "14 Wickets (Econ ~6.50)", 
+            "12 Wickets & 250+ Strike Rate in Death Overs", 
+            "Best figures of 4/37 in T20Is"
+        ]
+    })
+    st.dataframe(player_records, hide_index=True, use_container_width=True)
+
     # ── Venue Insight ────────────────────────────────────────────────
     venue_matches = matches[matches["venue"].str.contains("Narendra Modi", case=False, na=False)]
     if not venue_matches.empty:
