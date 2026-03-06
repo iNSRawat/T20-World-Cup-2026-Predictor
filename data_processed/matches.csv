@@ -1,6 +1,6 @@
 match_id,team1,team2,score1,score2,innings1_runs,innings2_runs,winner,result,venue,date,phase
 GS01,IND,USA,188/4,159/8,188,159,IND,India won by 29 runs,Narendra Modi Stadium,2026-02-08,Group Stage
-GS02,PAK,NED,162/7,159/9,162,159,PAK,Pakistan won by 3 wickets,MA Chidambaram Stadium,2026-02-09,Group Stage
+GS02,PAK,NED,162/7,159/9,162,159,PAK,Pakistan won by 3 runs,MA Chidambaram Stadium,2026-02-09,Group Stage
 GS03,IND,PAK,213/4,152/10,213,152,IND,India won by 61 runs,Eden Gardens,2026-02-11,Group Stage
 GS04,IND,NAM,234/3,141/10,234,141,IND,India won by 93 runs,Narendra Modi Stadium,2026-02-14,Group Stage
 GS05,PAK,NAM,248/3,146/10,248,146,PAK,Pakistan won by 102 runs,MA Chidambaram Stadium,2026-02-15,Group Stage
@@ -13,11 +13,11 @@ GS11,AUS,NZ,177/7,178/4,177,178,NZ,New Zealand won by 6 wickets,M. Chinnaswamy S
 GS12,NZ,SL,192/5,170/8,192,170,NZ,New Zealand won by 22 runs,R. Premadasa Stadium,2026-02-16,Group Stage
 GS13,WI,SCO,201/5,166/10,201,166,WI,West Indies won by 35 runs,Arun Jaitley Stadium,2026-02-08,Group Stage
 GS14,WI,ENG,198/6,168/9,198,168,WI,West Indies won by 30 runs,Wankhede Stadium,2026-02-12,Group Stage
-GS15,WI,NEP,195/4,120/10,195,120,WI,West Indies won by 9 wickets,Arun Jaitley Stadium,2026-02-15,Group Stage
-GS16,ITA,NEP,175/2,82/10,175,82,ITA,Italy won by 10 wickets,Hambantota International Stadium,2026-02-17,Group Stage
+GS15,WI,NEP,195/4,120/10,195,120,WI,West Indies won by 75 runs,Arun Jaitley Stadium,2026-02-15,Group Stage
+GS16,ITA,NEP,175/2,82/10,175,82,ITA,Italy won by 93 runs,Hambantota International Stadium,2026-02-17,Group Stage
 GS17,SA,AFG,173/7,173/6,173,173,SA,South Africa won after two Super Overs,Hambantota International Stadium,2026-02-09,Group Stage
-GS18,SA,UAE,185/5,156/8,185,156,SA,South Africa won by 6 wickets,Pallekele International Cricket Stadium,2026-02-14,Group Stage
-S8_01,SA,IND,219/5,143/10,219,143,SA,South Africa won by 76 runs,M. Chinnaswamy Stadium,2026-02-22,Super 8
+GS18,SA,UAE,185/5,156/8,185,156,SA,South Africa won by 29 runs,Pallekele International Cricket Stadium,2026-02-14,Group Stage
+S8_01,SA,IND,173/8,175/4,173,175,IND,India won by 6 wickets,M. Chinnaswamy Stadium,2026-02-22,Super 8
 S8_02,NZ,WI,186/5,165/8,186,165,NZ,New Zealand won by 21 runs,Eden Gardens,2026-02-22,Super 8
 S8_03,IND,WI,197/4,178/7,197,178,IND,India won by 19 runs,Wankhede Stadium,2026-02-24,Super 8
 S8_04,NZ,SA,181/6,168/9,181,168,NZ,New Zealand won by 13 runs,MA Chidambaram Stadium,2026-02-25,Super 8

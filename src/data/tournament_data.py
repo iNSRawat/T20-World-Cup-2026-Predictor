@@ -28,7 +28,7 @@ MATCHES = [
      "innings1_runs": 188, "innings2_runs": 159, "winner": "IND", "result": "India won by 29 runs",
      "venue": "Narendra Modi Stadium", "date": "2026-02-08", "phase": "Group Stage"},
     {"match_id": "GS02", "team1": "PAK", "team2": "NED", "score1": "162/7", "score2": "159/9",
-     "innings1_runs": 162, "innings2_runs": 159, "winner": "PAK", "result": "Pakistan won by 3 wickets",
+     "innings1_runs": 162, "innings2_runs": 159, "winner": "PAK", "result": "Pakistan won by 3 runs",
      "venue": "MA Chidambaram Stadium", "date": "2026-02-09", "phase": "Group Stage"},
     {"match_id": "GS03", "team1": "IND", "team2": "PAK", "score1": "213/4", "score2": "152/10",
      "innings1_runs": 213, "innings2_runs": 152, "winner": "IND", "result": "India won by 61 runs",
@@ -71,10 +71,10 @@ MATCHES = [
      "innings1_runs": 198, "innings2_runs": 168, "winner": "WI", "result": "West Indies won by 30 runs",
      "venue": "Wankhede Stadium", "date": "2026-02-12", "phase": "Group Stage"},
     {"match_id": "GS15", "team1": "WI", "team2": "NEP", "score1": "195/4", "score2": "120/10",
-     "innings1_runs": 195, "innings2_runs": 120, "winner": "WI", "result": "West Indies won by 9 wickets",
+     "innings1_runs": 195, "innings2_runs": 120, "winner": "WI", "result": "West Indies won by 75 runs",
      "venue": "Arun Jaitley Stadium", "date": "2026-02-15", "phase": "Group Stage"},
     {"match_id": "GS16", "team1": "ITA", "team2": "NEP", "score1": "175/2", "score2": "82/10",
-     "innings1_runs": 175, "innings2_runs": 82, "winner": "ITA", "result": "Italy won by 10 wickets",
+     "innings1_runs": 175, "innings2_runs": 82, "winner": "ITA", "result": "Italy won by 93 runs",
      "venue": "Hambantota International Stadium", "date": "2026-02-17", "phase": "Group Stage"},
 
     # Group D
@@ -82,13 +82,13 @@ MATCHES = [
      "innings1_runs": 173, "innings2_runs": 173, "winner": "SA", "result": "South Africa won after two Super Overs",
      "venue": "Hambantota International Stadium", "date": "2026-02-09", "phase": "Group Stage"},
     {"match_id": "GS18", "team1": "SA", "team2": "UAE", "score1": "185/5", "score2": "156/8",
-     "innings1_runs": 185, "innings2_runs": 156, "winner": "SA", "result": "South Africa won by 6 wickets",
+     "innings1_runs": 185, "innings2_runs": 156, "winner": "SA", "result": "South Africa won by 29 runs",
      "venue": "Pallekele International Cricket Stadium", "date": "2026-02-14", "phase": "Group Stage"},
 
     # ── Super 8 (Feb 21 – Mar 1) ────────────────────────────────────────
     # Group 1: India, South Africa, New Zealand, West Indies
-    {"match_id": "S8_01", "team1": "SA", "team2": "IND", "score1": "219/5", "score2": "143/10",
-     "innings1_runs": 219, "innings2_runs": 143, "winner": "SA", "result": "South Africa won by 76 runs",
+    {"match_id": "S8_01", "team1": "SA", "team2": "IND", "score1": "173/8", "score2": "175/4",
+     "innings1_runs": 173, "innings2_runs": 175, "winner": "IND", "result": "India won by 6 wickets",
      "venue": "M. Chinnaswamy Stadium", "date": "2026-02-22", "phase": "Super 8"},
     {"match_id": "S8_02", "team1": "NZ", "team2": "WI", "score1": "186/5", "score2": "165/8",
      "innings1_runs": 186, "innings2_runs": 165, "winner": "NZ", "result": "New Zealand won by 21 runs",
