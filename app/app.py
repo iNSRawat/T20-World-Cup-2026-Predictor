@@ -406,7 +406,7 @@ def render_final_prediction():
         fig.update_layout(
             showlegend=False,
             paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
-            height=300, margin=dict(t=20, b=20, l=40, r=40),
+            margin=dict(t=40, b=40, l=40, r=40),
             annotations=[dict(
                 text="🏆<br>FINAL",
                 x=0.5, y=0.5, font=dict(size=18, color="#94a3b8", family="Inter"),
