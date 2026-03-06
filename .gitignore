@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (keep gitkeep, ignore actual data files)
+data_raw/**/*.csv
+data_raw/**/*.json
+data_raw/**/*.html
+data_processed/*.csv
+data_processed/*.parquet
+data_processed/plots/
+
+# Models
+models/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
