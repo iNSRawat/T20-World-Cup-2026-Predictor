@@ -18,12 +18,10 @@ env/
 data_raw/**/*.csv
 data_raw/**/*.json
 data_raw/**/*.html
-data_processed/*.csv
-data_processed/*.parquet
 data_processed/plots/
 
-# Models
-models/*.pkl
+# Models (Keep standard serialized models so the cloud app can predict)
+# models/*.pkl
 
 # Jupyter
 .ipynb_checkpoints/
