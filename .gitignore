@@ -15,9 +15,6 @@ env/
 *.swo
 
 # Data (keep gitkeep, ignore actual data files)
-data_raw/**/*.csv
-data_raw/**/*.json
-data_raw/**/*.html
 data_processed/plots/
 
 # Models (Keep standard serialized models so the cloud app can predict)
