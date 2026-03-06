@@ -26,6 +26,11 @@ import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
 
+# Force clear cache on first load to solve user's stale localhost data
+if "cache_cleared" not in st.session_state:
+    st.cache_data.clear()
+    st.session_state["cache_cleared"] = True
+
 from src.config import TEAM_CODES, VENUES, DATA_PROCESSED, MODELS_DIR
 from src.utils import load_dataframe, logger
 
