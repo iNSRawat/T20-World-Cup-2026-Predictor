@@ -226,13 +226,10 @@ def load_bowlers():
 
 @st.cache_resource
 def load_predictor():
-    try:
-        from src.models.win_predictor import WinPredictor
-        predictor = WinPredictor()
-        predictor.load_models()
-        return predictor
-    except Exception:
-        return None
+    from src.models.win_predictor import WinPredictor
+    predictor = WinPredictor()
+    predictor.load_models()
+    return predictor
 
 
 # ─── Helper Functions ────────────────────────────────────────────────────────
