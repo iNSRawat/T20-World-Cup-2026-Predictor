@@ -11,6 +11,12 @@
 **AI-powered pre-match win predictions for the ICC Men's T20 World Cup 2026**  
 *Using real-world data from ESPNcricinfo, Cricbuzz & ICC*
 
+[![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FiNSRawat%2FT20-World-Cup-2026-Predictor&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 [View Demo](#-streamlit-dashboard) · [Run Locally](#-quick-start) · [Data Sources](#-data-sources)
 
 </div>
@@ -116,6 +122,35 @@ python src/models/win_predictor.py      # 3. Train models
 # Launch the dashboard
 streamlit run app/app.py
 ```
+
+## 🚀 Free Deployment Platforms
+
+This app is built with Streamlit, making it incredibly easy to deploy for free. Here are the best free platforms with quick-start guides:
+
+### 1. Streamlit Community Cloud (Recommended)
+The absolute easiest way to deploy Streamlit apps.
+1. Go to [share.streamlit.io](https://share.streamlit.io/) and sign in with GitHub.
+2. Click **New app**.
+3. Select your repository: `iNSRawat/T20-World-Cup-2026-Predictor`.
+4. Branch: `main`.
+5. Main file path: `app/app.py`.
+6. Click **Deploy!**
+
+### 2. Hugging Face Spaces
+Great for machine learning portfolios.
+1. Go to [Hugging Face Spaces](https://huggingface.co/spaces) and click **Create new Space**.
+2. Name your space and select **Streamlit** as the Space SDK.
+3. Keep the space Public and click **Create Space**.
+4. Clone the space, add your files, or directly link your GitHub repo to the space settings.
+
+### 3. Render
+A great platform for general web apps (spins down after inactivity).
+1. Go to [Render](https://render.com/) and sign up.
+2. Click **New +** and select **Web Service**.
+3. Connect your GitHub and select the repository.
+4. Name the service, select **Python** runtime.
+5. Build Command: `pip install -r requirements.txt`.
+6. Start Command: `streamlit run app/app.py --server.port $PORT`.
 
 ## 📡 Data Sources
 
