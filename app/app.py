@@ -399,17 +399,17 @@ def render_final_prediction():
             marker=dict(colors=["#f97316", "#22c55e"], line=dict(color="rgba(0,0,0,0.3)", width=2)),
             textinfo="label+percent",
             textposition="outside",
-            textfont=dict(size=14, family="Inter", color="#ffffff"),
+            textfont=dict(size=12, family="Inter", color="#ffffff"),
             hovertemplate="%{label}: %{value:.1%}<extra></extra>",
             sort=False,
         ))
         fig.update_layout(
             showlegend=False,
             paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
-            margin=dict(t=40, b=40, l=40, r=40),
+            height=260, margin=dict(t=40, b=40, l=30, r=30),
             annotations=[dict(
                 text="🏆<br>FINAL",
-                x=0.5, y=0.5, font=dict(size=18, color="#94a3b8", family="Inter"),
+                x=0.5, y=0.5, font=dict(size=14, color="#94a3b8", family="Inter"),
                 showarrow=False,
             )],
         )
