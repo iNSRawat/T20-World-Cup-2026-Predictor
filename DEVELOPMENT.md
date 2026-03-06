@@ -87,6 +87,37 @@ streamlit run app/app.py
 
 The app will become available at `http://localhost:8501`.
 
+## 🚀 Free Deployment Platforms
+
+This app is built with Streamlit, making it incredibly easy to deploy for free. Here are the best free platforms with quick-start guides:
+
+### 1. Streamlit Community Cloud (Recommended)
+The absolute easiest way to deploy Streamlit apps.
+1. Go to [share.streamlit.io](https://share.streamlit.io/) and sign in with GitHub.
+2. Click **New app**.
+3. Select your repository: `iNSRawat/T20-World-Cup-2026-Predictor`.
+4. Branch: `main`.
+5. Main file path: `app/app.py`.
+6. Click **Deploy!**
+
+### 2. Hugging Face Spaces
+Great for machine learning portfolios.
+1. Go to [Hugging Face Spaces](https://huggingface.co/spaces) and click **Create new Space**.
+2. Name your space and select **Streamlit** as the Space SDK.
+3. Keep the space Public and click **Create Space**.
+4. Clone the space, add your files, or directly link your GitHub repo to the space settings.
+5. Hugging Face will automatically build and host the app based on your `requirements.txt`.
+
+### 3. Render
+A great platform for general web apps (spins down after inactivity).
+1. Go to [Render](https://render.com/) and sign up.
+2. Click **New +** and select **Web Service**.
+3. Connect your GitHub and select the repository.
+4. Name the service, select **Python** runtime.
+5. Build Command: `pip install -r requirements.txt`.
+6. Start Command: `streamlit run app/app.py --server.port $PORT`.
+7. Select the **Free** tier and click **Create Web Service**.
+
 ## 🧑‍💻 Contribution Guidelines
 
 1. **Branching:** Create a feature branch (`feature/your-feature-name`) from `main`.
