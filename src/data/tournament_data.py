@@ -141,31 +141,31 @@ MATCHES = [
 # ═══════════════════════════════════════════════════════════════════════════
 
 TOP_BATTERS = [
-    {"player": "Sahibzada Farhan", "team": "PAK", "matches": 7, "runs": 383, "balls": 252, "avg": 54.7, "sr": 152.0, "fours": 38, "sixes": 18, "fifties": 3, "hundreds": 2},
-    {"player": "Brian Bennett", "team": "ZIM", "matches": 6, "runs": 292, "balls": 188, "avg": 48.7, "sr": 155.3, "fours": 30, "sixes": 14, "fifties": 2, "hundreds": 0},
-    {"player": "Finn Allen", "team": "NZ", "matches": 8, "runs": 289, "balls": 185, "avg": 41.3, "sr": 156.2, "fours": 28, "sixes": 16, "fifties": 2, "hundreds": 0},
-    {"player": "Aiden Markram", "team": "SA", "matches": 8, "runs": 286, "balls": 190, "avg": 35.8, "sr": 150.5, "fours": 25, "sixes": 16, "fifties": 2, "hundreds": 0},
-    {"player": "Jacob Bethell", "team": "ENG", "matches": 8, "runs": 280, "balls": 178, "avg": 40.0, "sr": 157.3, "fours": 26, "sixes": 14, "fifties": 3, "hundreds": 0},
-    {"player": "Tim Seifert", "team": "NZ", "matches": 8, "runs": 274, "balls": 190, "avg": 39.1, "sr": 144.2, "fours": 22, "sixes": 14, "fifties": 2, "hundreds": 0},
-    {"player": "Ishan Kishan", "team": "IND", "matches": 8, "runs": 263, "balls": 172, "avg": 37.6, "sr": 152.9, "fours": 24, "sixes": 14, "fifties": 2, "hundreds": 0},
-    {"player": "Shimron Hetmyer", "team": "WI", "matches": 7, "runs": 248, "balls": 155, "avg": 41.3, "sr": 160.0, "fours": 20, "sixes": 15, "fifties": 2, "hundreds": 0},
-    {"player": "Suryakumar Yadav", "team": "IND", "matches": 8, "runs": 242, "balls": 155, "avg": 34.6, "sr": 156.1, "fours": 22, "sixes": 14, "fifties": 2, "hundreds": 0},
-    {"player": "Harry Brook", "team": "ENG", "matches": 8, "runs": 235, "balls": 157, "avg": 33.6, "sr": 149.7, "fours": 24, "sixes": 10, "fifties": 2, "hundreds": 0},
-    {"player": "Sanju Samson", "team": "IND", "matches": 4, "runs": 232, "balls": 128, "avg": 58.0, "sr": 181.3, "fours": 18, "sixes": 18, "fifties": 1, "hundreds": 1},
-    {"player": "Shai Hope", "team": "WI", "matches": 7, "runs": 217, "balls": 148, "avg": 36.2, "sr": 146.6, "fours": 18, "sixes": 10, "fifties": 1, "hundreds": 0},
+    {'player': 'Sahibzada Farhan', 'team': 'PAK', 'matches': 6, 'runs': 383, 'balls': 239, 'avg': 76.6, 'sr': 160.25, 'fours': 37, 'sixes': 18, 'fifties': 2, 'hundreds': 2},
+    {'player': 'Brian Bennett', 'team': 'ZIM', 'matches': 6, 'runs': 292, 'balls': 217, 'avg': 146.0, 'sr': 134.56, 'fours': 32, 'sixes': 7, 'fifties': 3, 'hundreds': 0},
+    {'player': 'Finn Allen', 'team': 'NZ', 'matches': 7, 'runs': 289, 'balls': 142, 'avg': 57.8, 'sr': 203.52, 'fours': 24, 'sixes': 20, 'fifties': 0, 'hundreds': 1},
+    {'player': 'Aiden Markram', 'team': 'SA', 'matches': 8, 'runs': 286, 'balls': 172, 'avg': 47.67, 'sr': 165.32, 'fours': 32, 'sixes': 11, 'fifties': 3, 'hundreds': 0},
+    {'player': 'Jacob Bethell', 'team': 'ENG', 'matches': 8, 'runs': 280, 'balls': 184, 'avg': 35.0, 'sr': 152.17, 'fours': 25, 'sixes': 14, 'fifties': 0, 'hundreds': 1},
+    {'player': 'Tim Seifert', 'team': 'NZ', 'matches': 7, 'runs': 274, 'balls': 169, 'avg': 45.67, 'sr': 161.18, 'fours': 32, 'sixes': 11, 'fifties': 3, 'hundreds': 0},
+    {'player': 'Ishan Kishan', 'team': 'IND', 'matches': 8, 'runs': 263, 'balls': 138, 'avg': 32.88, 'sr': 189.21, 'fours': 29, 'sixes': 14, 'fifties': 2, 'hundreds': 0},
+    {'player': 'Shimron Hetmyer', 'team': 'WI', 'matches': 7, 'runs': 248, 'balls': 132, 'avg': 41.33, 'sr': 186.47, 'fours': 16, 'sixes': 19, 'fifties': 2, 'hundreds': 0},
+    {'player': 'Suryakumar Yadav', 'team': 'IND', 'matches': 8, 'runs': 242, 'balls': 176, 'avg': 34.57, 'sr': 137.5, 'fours': 21, 'sixes': 10, 'fifties': 1, 'hundreds': 0},
+    {'player': 'Harry Brook', 'team': 'ENG', 'matches': 8, 'runs': 235, 'balls': 147, 'avg': 29.38, 'sr': 159.86, 'fours': 21, 'sixes': 9, 'fifties': 0, 'hundreds': 1},
+    {'player': 'Sanju Samson', 'team': 'IND', 'matches': 4, 'runs': 232, 'balls': 114, 'avg': 77.33, 'sr': 201.74, 'fours': 22, 'sixes': 16, 'fifties': 2, 'hundreds': 0},
+    {'player': 'Ryan Rickelton', 'team': 'SA', 'matches': 8, 'runs': 228, 'balls': 133, 'avg': 32.57, 'sr': 170.15, 'fours': 17, 'sixes': 15, 'fifties': 1, 'hundreds': 0},
 ]
 
 TOP_BOWLERS = [
-    {"player": "Shadley Van Schalkwyk", "team": "USA", "matches": 4, "wickets": 13, "overs": 16.0, "runs_conceded": 102, "avg": 7.8, "econ": 6.4, "sr": 7.4, "best": "4/18"},
-    {"player": "Lungi Ngidi", "team": "SA", "matches": 7, "wickets": 12, "overs": 26.0, "runs_conceded": 168, "avg": 14.0, "econ": 6.5, "sr": 13.0, "best": "3/28"},
-    {"player": "Jasprit Bumrah", "team": "IND", "matches": 7, "wickets": 11, "overs": 28.0, "runs_conceded": 148, "avg": 13.5, "econ": 5.3, "sr": 15.3, "best": "3/21"},
-    {"player": "Trent Boult", "team": "NZ", "matches": 8, "wickets": 11, "overs": 30.0, "runs_conceded": 185, "avg": 16.8, "econ": 6.2, "sr": 16.4, "best": "3/25"},
-    {"player": "Romario Shepherd", "team": "WI", "matches": 7, "wickets": 10, "overs": 24.0, "runs_conceded": 142, "avg": 14.2, "econ": 5.9, "sr": 14.4, "best": "5/20"},
-    {"player": "Mark Adair", "team": "IRE", "matches": 4, "wickets": 9, "overs": 16.0, "runs_conceded": 98, "avg": 10.9, "econ": 6.1, "sr": 10.7, "best": "3/22"},
-    {"player": "Rashid Khan", "team": "AFG", "matches": 5, "wickets": 9, "overs": 20.0, "runs_conceded": 118, "avg": 13.1, "econ": 5.9, "sr": 13.3, "best": "3/24"},
-    {"player": "Matt Henry", "team": "NZ", "matches": 8, "wickets": 9, "overs": 28.0, "runs_conceded": 172, "avg": 19.1, "econ": 6.1, "sr": 18.7, "best": "3/30"},
-    {"player": "Kuldeep Yadav", "team": "IND", "matches": 7, "wickets": 9, "overs": 26.0, "runs_conceded": 155, "avg": 17.2, "econ": 6.0, "sr": 17.3, "best": "3/28"},
-    {"player": "Adil Rashid", "team": "ENG", "matches": 7, "wickets": 8, "overs": 28.0, "runs_conceded": 168, "avg": 21.0, "econ": 6.0, "sr": 21.0, "best": "2/18"},
+    {'player': 'Shadley van Schalkwyk', 'team': 'USA', 'matches': 4, 'wickets': 13, 'overs': 14.5, 'runs_conceded': 101, 'avg': 7.77, 'econ': 6.81, 'sr': 6.85, 'best': '4/25'},
+    {'player': 'Blessing Muzarabani', 'team': 'ZIM', 'matches': 6, 'wickets': 13, 'overs': 23.5, 'runs_conceded': 188, 'avg': 14.46, 'econ': 7.89, 'sr': 11.0, 'best': '4/17'},
+    {'player': 'Adil Rashid', 'team': 'ENG', 'matches': 8, 'wickets': 13, 'overs': 30.4, 'runs_conceded': 250, 'avg': 19.23, 'econ': 8.15, 'sr': 14.15, 'best': '3/19'},
+    {'player': 'Varun Chakaravarthy', 'team': 'IND', 'matches': 8, 'wickets': 13, 'overs': 28.0, 'runs_conceded': 248, 'avg': 19.08, 'econ': 8.86, 'sr': 12.92, 'best': '3/24'},
+    {'player': 'Lungi Ngidi', 'team': 'SA', 'matches': 7, 'wickets': 12, 'overs': 26.0, 'runs_conceded': 187, 'avg': 15.58, 'econ': 7.19, 'sr': 13.0, 'best': '4/28'},
+    {'player': 'Marco Jansen', 'team': 'SA', 'matches': 6, 'wickets': 11, 'overs': 22.4, 'runs_conceded': 237, 'avg': 21.55, 'econ': 10.45, 'sr': 12.36, 'best': '4/22'},
+    {'player': 'Rachin Ravindra', 'team': 'NZ', 'matches': 7, 'wickets': 11, 'overs': 17.0, 'runs_conceded': 117, 'avg': 10.64, 'econ': 6.88, 'sr': 9.27, 'best': '4/20'},
+    {'player': 'Maheesh Theekshana', 'team': 'SL', 'matches': 7, 'wickets': 11, 'overs': 27.3, 'runs_conceded': 204, 'avg': 18.55, 'econ': 7.42, 'sr': 15.0, 'best': '3/18'},
+    {'player': 'Corbin Bosch', 'team': 'SA', 'matches': 7, 'wickets': 11, 'overs': 25.0, 'runs_conceded': 191, 'avg': 17.36, 'econ': 7.64, 'sr': 13.64, 'best': '3/21'},
+    {'player': 'Jofra Archer', 'team': 'ENG', 'matches': 8, 'wickets': 11, 'overs': 30.0, 'runs_conceded': 286, 'avg': 26.0, 'econ': 9.53, 'sr': 16.36, 'best': '3/25'},
 ]
 
 
