@@ -15,7 +15,7 @@
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://t20-world-cup-2026-predictors.streamlit.app)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FiNSRawat%2FT20-World-Cup-2026-Predictor&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.sh/github.com/iNSRawat/T20-World-Cup-2026-Predictor.svg)](https://hits.sh/github.com/iNSRawat/T20-World-Cup-2026-Predictor/)
 
 [View Demo](https://t20-world-cup-2026-predictors.streamlit.app) · [Run Locally](#-quick-start) · [Data Sources](#-data-sources)
 
